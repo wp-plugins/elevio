@@ -11,7 +11,7 @@ Elevio displays your entire knowledge base and chat in a single tab on your site
 
 Elevio provides contextual inline support to help your users where they need it, and analytics to show you where your sites pain points are.
 
-Imagine being able to embed your entire knowledge base in a single tab on every page of your site, you users will love being able to help themselves without having to go looking for help, and your support load will decrease as a result.
+Imagine being able to embed your entire knowledge base in a single tab on every page of your site, your users will love being able to help themselves without having to go looking for help, and your support load will decrease as a result.
 
 You can create new articles, or sync with an existing knowledge base powered by Zendesk, Desk.com or Uservoice.
 
