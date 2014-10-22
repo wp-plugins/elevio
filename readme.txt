@@ -1,47 +1,38 @@
 === Elevio ===
 Contributors: Elevio
 Tags: zendesk, desk.com, uservoice, zopim, olark, snapengage, livechat, knowledge base, live chat, support
-Stable tag: 2.1.0
+Stable tag: 3.0.0
 Requires at least: 2.8
 Tested up to: 4.0.0
 
-Elevio displays your entire knowledge base and chat in a single tab on your site.
+Elevio for Wordpress plugin that integrates with your knowledge base and chat client.
 
 == Description ==
 
-Elevio provides contextual inline support to help your users where they need it, and analytics to show you where your sites pain points are.
+Elevio provices contextual inline support to help your users where they need it, and analytics to show you where your sites pain points are.
 
-Imagine being able to embed your entire knowledge base in a single tab on every page of your site, your users will love being able to help themselves without having to go looking for help, and your support load will decrease as a result.
-
-You can create new articles, or sync with an existing knowledge base powered by Zendesk, Desk.com or Uservoice.
-
-You can also directly embed your chat right into the widget, we support using Olark, Zopim. and LiveChat
-
-We provide a free 30 day trial, create an account at <https://elev.io/register>
-
-**Supported knowledge bases**
+Hook your support, live chat and help desk accounts right in, we support:
 
 * Zendesk
-* Desk.com
+* Desk
 * Uservoice
-* Or just use elevio to manage your articles
-
-**Supported chat clients**
-
 * Olark
+* Livechat
 * Zopim
-* LiveChat
+* Google Analytics
+* Kissmetrics
+* Mixpanel
+* Segment.io
+* Plus more
 
-Use something other than these? Let us know by [contacting us](https://elev.io/contact)
-
-Want to stay up to date with development, follow us on [Facebook](http://www.facebook.com/elevioapp) or [Twitter](http://twitter.com/elevioapp)
+We provide a free 30 day trial, create an account at https://elev.io/register
 
 == Installation ==
 
 1. Install the elevio plugin
 2. Activate the plugin through the 'Plugins' menu in WordPress
 3. Click the 'Elevio' menu on the left.
-4. Follow the installation instructions.
+4. Follow the installation instructions instructions.
 
 == Screenshots ==
 
@@ -54,5 +45,10 @@ Want to stay up to date with development, follow us on [Facebook](http://www.fac
 
 == Changelog ==
 
+= 3.0.0 =
+* Moved to using the new 3.0 version of elev.io
+* Now module based, supporting: Help desk, Support Tickets, Live Chat, RSS feeds, analytics
+* For more information see https://elev.io/modules
+
 = 2.1.0 =
-* Initial plugin release (version number to match current site version)
+* First release

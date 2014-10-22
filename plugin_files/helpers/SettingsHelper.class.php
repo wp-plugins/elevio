@@ -42,6 +42,15 @@ Elevio::get_instance()->get_helper('TrackingCodeInfo');
 								<p><small>(don't know your account id? <a target="_blank" href="https://elev.io/app/settings">click here to find it</a>)
 							</td>
 						</tr>
+						<tr>
+							<th scope="row">
+								<label for="elevio_secret_id">My elevio secret is:</label>
+							</th>
+							<td>
+								<input type="text" name="secret_id" id="elevio_secret_id" value="<?php echo Elevio::get_instance()->get_secret_id(); ?>" size="40" />
+								<p><small>(don't know your secret? <a target="_blank" href="https://elev.io/app/settings">click here to find it</a>)
+							</td>
+						</tr>
 					</table>
 
 					<p class="ajax_message"></p>

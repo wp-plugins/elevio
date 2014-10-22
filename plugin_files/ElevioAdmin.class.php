@@ -146,6 +146,7 @@ final class ElevioAdmin extends Elevio
     protected function reset_options()
     {
         delete_option('elevio_account_id');
+        delete_option('elevio_secret_id');
     }
 
     protected function update_options($data)
@@ -157,8 +158,10 @@ final class ElevioAdmin extends Elevio
         }
 
         $account_id = isset($data['account_id']) ? $data['account_id'] : '';
+        $secret_id = isset($data['secret_id']) ? $data['secret_id'] : '';
 
         update_option('elevio_account_id', $account_id);
+        update_option('elevio_secret_id', $secret_id);
 
         if (isset($data['changes_saved']) && $data['changes_saved'] == '1')
         {

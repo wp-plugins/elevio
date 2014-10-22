@@ -15,6 +15,7 @@ class Elevio
      */
     protected $login = null;
     protected $account_id = null;
+    protected $secret_id = null;
 
     /**
      * Remembers if Elevio account id is set
@@ -79,6 +80,21 @@ class Elevio
         }
 
         return $this->account_id;
+    }
+
+    /**
+     * Returns Elevio secret_id
+     *
+     * @return int
+     */
+    public function get_secret_id()
+    {
+        if (is_null($this->secret_id))
+        {
+            $this->secret_id = get_option('elevio_secret_id');
+        }
+
+        return $this->secret_id;
     }
 
     /**
