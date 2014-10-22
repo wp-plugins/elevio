@@ -64,7 +64,7 @@ class Elevio
      */
     public function is_installed()
     {
-        return ($this->get_account_id() !== false);
+        return ($this->get_account_id() !== false && $this->get_secret_id() !== false);
     }
 
     /**

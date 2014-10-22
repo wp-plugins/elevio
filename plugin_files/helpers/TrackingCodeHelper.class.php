@@ -8,7 +8,7 @@ class TrackingCodeHelper extends ElevioHelper
     {
         if (Elevio::get_instance()->is_installed()) {
             $account_id = Elevio::get_instance()->get_account_id();
-            $secret_id = Elevio::get_instance()->get_account_secret();
+            $secret_id = Elevio::get_instance()->get_secret_id();
 
             $user = '';
             if (is_user_logged_in()) {
