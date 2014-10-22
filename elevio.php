@@ -5,7 +5,7 @@ Plugin URI: https://elevio.com/integrations/wordpress/
 Description: Display your whole knowledge base and chat in a single tab on every page of your site.
 Author: Elevio
 Author URI: https://elev.io
-Version: 3.0.1
+Version: 3.0.2
 */
 
 if (is_admin())

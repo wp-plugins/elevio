@@ -8,7 +8,7 @@ class TrackingCodeInfoHelper extends ElevioHelper
 	{
 		if (Elevio::get_instance()->is_installed())
 		{
-			return '<div class="updated installed_ok"><p>You\'ve successfully installed Elevio, nice work (using account id: <strong>' . Elevio::get_instance()->get_account_id() .'</strong>)</p></div>';
+			return '<div class="updated installed_ok"><p>You\'ve successfully installed Elevio, nice work (using account id: <strong>' . Elevio::get_instance()->get_account_id() .'</strong> and secret id: <strong>' . Elevio::get_instance()->get_secret_id() .'</strong>)</p></div>';
 		}
 
 		return '';
