@@ -36,11 +36,13 @@ We provide a free 30 day trial, create an account at https://elev.io/register
 
 == Screenshots ==
 
-1. The tab in action filled with your content.
-2. Popup contextual tip in action
-3. Managing your articles
-4. Analytics
-5. Your dashboard, showing usage data
+1. Knowledge base - powered by Zendesk / Desk.com / Uservoice / Custom articles
+2. Live Chat - Powered by Olark, LiveChat, Zopim
+3. Support - Powered by Zendesk / Desk.com / Uservoice
+4. Existing support tickets
+5. View support ticket history
+6. RSS Feed
+7. Managing your articles
 
 
 == Changelog ==
