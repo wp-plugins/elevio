@@ -9,9 +9,9 @@ Elevio for Wordpress plugin that integrates with your existing knowledge base, c
 
 == Description ==
 
-Elevio provices contextual inline support to help your users where they need it, and analytics to show you where your sites pain points are.
+elevio gives your users a better way to access the help they need to get their job done.
 
-Hook your support, live chat and help desk accounts right in, we support:
+Hook your existing support, live chat, help desk and other services right in, we support:
 
 * Zendesk
 * Desk
