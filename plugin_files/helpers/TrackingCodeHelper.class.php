@@ -13,10 +13,7 @@ class TrackingCodeHelper extends ElevioHelper
             $user = '';
             if (is_user_logged_in()) {
                 $user_info = wp_get_current_user();
-                $roles = array();
-                if ($user_info instanceof WP_User) {
-                    $roles = $user->roles;
-                }
+                $roles = $user->roles;
                 $user = "
 
 _elev.user = {
