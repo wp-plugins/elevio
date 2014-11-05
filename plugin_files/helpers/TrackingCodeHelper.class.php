@@ -13,12 +13,18 @@ class TrackingCodeHelper extends ElevioHelper
             $user = '';
             if (is_user_logged_in()) {
                 $user_info = wp_get_current_user();
+                $roles = [];
+                if ($user_info instanceof WP_User) {
+                    $roles = $user->roles;
+                }
                 $user = "
+
 _elev.user = {
     first_name: '" . $user_info->user_firstname . "',
     last_name: '" . $user_info->user_lastname . "',
     email: '" . $user_info->user_email . "',
-    user_hash: '" . hash_hmac("sha256", $user->email, $secret_id) . "'
+    user_hash: '" . hash_hmac("sha256", $user->email, $secret_id) . "',
+    groups: '".implode(',', $roles)."'
 };
 ";
             }

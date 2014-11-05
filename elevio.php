@@ -1,11 +1,11 @@
 <?php
 /*
 Plugin Name: Elevio
-Plugin URI: https://elevio.com/integrations/wordpress/
-Description: Display your whole knowledge base and chat in a single tab on every page of your site.
+Plugin URI: https://elev.io/
+Description: A better way for your users to access the help they need.
 Author: Elevio
 Author URI: https://elev.io
-Version: 3.0.2
+Version: 3.1.0
 */
 
 if (is_admin())

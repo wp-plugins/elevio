@@ -1,11 +1,11 @@
 === Elevio ===
 Contributors: Elevio
-Tags: zendesk, desk.com, uservoice, zopim, olark, snapengage, livechat, knowledge base, live chat, support
-Stable tag: 3.0.0
+Tags: zendesk, desk.com, uservoice, zopim, olark, snapengage, livechat, knowledge base, live chat, support, intercom, statuspage
+Stable tag: 3.1.0
 Requires at least: 2.8
 Tested up to: 4.0.0
 
-Elevio for Wordpress plugin that integrates with your knowledge base and chat client.
+Elevio for Wordpress plugin that integrates with your existing knowledge base, chat client, support system and more
 
 == Description ==
 
@@ -31,8 +31,8 @@ We provide a free 30 day trial, create an account at https://elev.io/register
 
 1. Install the elevio plugin
 2. Activate the plugin through the 'Plugins' menu in WordPress
-3. Click the 'Elevio' menu on the left.
-4. Follow the installation instructions instructions.
+3. Click the 'Elevio' menu item on the left.
+4. Follow the installation instructions.
 
 == Screenshots ==
 
@@ -44,6 +44,9 @@ We provide a free 30 day trial, create an account at https://elev.io/register
 
 
 == Changelog ==
+
+= 3.1.0 =
+* Added in user role
 
 = 3.0.0 =
 * Moved to using the new 3.0 version of elev.io
