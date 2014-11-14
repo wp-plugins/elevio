@@ -27,7 +27,7 @@ class Elevio
      */
     protected function __construct()
     {
-        add_action ('wp_head', array($this, 'tracking_code'));
+        add_action ('wp_footer', array($this, 'tracking_code'));
     }
 
     public static function get_instance()

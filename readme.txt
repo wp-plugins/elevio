@@ -1,7 +1,7 @@
 === Elevio ===
 Contributors: Elevio
 Tags: zendesk, desk.com, uservoice, zopim, olark, snapengage, livechat, knowledge base, live chat, support, intercom, statuspage
-Stable tag: 3.1.0
+Stable tag: 3.1.1
 Requires at least: 2.8
 Tested up to: 4.0.0
 
