@@ -20,7 +20,7 @@ _elev.user = {
     first_name: '" . $user_info->user_firstname . "',
     last_name: '" . $user_info->user_lastname . "',
     email: '" . $user_info->user_email . "',
-    user_hash: '" . hash_hmac("sha256", $user_info->email, $secret_id) . "',
+    user_hash: '" . hash_hmac("sha256", $user_info->user_email, $secret_id) . "',
     groups: '".implode(',', $roles)."'
 };
 ";
