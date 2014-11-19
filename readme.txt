@@ -1,7 +1,7 @@
 === Elevio ===
 Contributors: Elevio
 Tags: zendesk, desk.com, uservoice, zopim, olark, snapengage, livechat, knowledge base, live chat, support, intercom, statuspage
-Stable tag: 3.1.1
+Stable tag: 3.1.2
 Requires at least: 2.8
 Tested up to: 4.0.0
 
@@ -46,6 +46,9 @@ We provide a free 30 day trial, create an account at https://elev.io/register
 
 
 == Changelog ==
+
+= 3.1.2 =
+* Fix to logged in user_hash
 
 = 3.1.0 =
 * Added in user role
