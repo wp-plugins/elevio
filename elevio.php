@@ -5,7 +5,7 @@ Plugin URI: https://elev.io/
 Description: A better way for your users to access the help they need.
 Author: Elevio
 Author URI: https://elev.io
-Version: 3.1.2
+Version: 3.2.0
 */
 
 if (is_admin())
@@ -18,4 +18,3 @@ else
     require_once(dirname(__FILE__).'/plugin_files/Elevio.class.php');
     Elevio::get_instance();
 }
-

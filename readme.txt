@@ -1,9 +1,9 @@
 === Elevio ===
 Contributors: Elevio
-Tags: zendesk, desk.com, uservoice, zopim, olark, snapengage, livechat, knowledge base, live chat, support, intercom, statuspage
-Stable tag: 3.1.2
+Tags: zendesk, desk.com, uservoice, zopim, olark, snapengage, livechat, knowledge base, live chat, support, intercom, statuspage, freshdesk, intercom
+Stable tag: 3.2.0
 Requires at least: 2.8
-Tested up to: 4.0.0
+Tested up to: 4.2.0
 
 Elevio for Wordpress plugin that integrates with your existing knowledge base, chat client, support system and more
 
@@ -16,6 +16,7 @@ Hook your existing support, live chat, help desk and other services right in, we
 * Zendesk
 * Desk
 * Uservoice
+* Freshdesk
 * Olark
 * Livechat
 * Zopim
@@ -23,6 +24,7 @@ Hook your existing support, live chat, help desk and other services right in, we
 * Kissmetrics
 * Mixpanel
 * Segment.io
+* Intercom
 * Plus more
 
 We provide a free 30 day trial, create an account at https://elev.io/register
@@ -46,6 +48,9 @@ We provide a free 30 day trial, create an account at https://elev.io/register
 
 
 == Changelog ==
+
+= 3.2.0 =
+* Updated to support up to wordpress 4.2
 
 = 3.1.2 =
 * Fix to logged in user_hash
