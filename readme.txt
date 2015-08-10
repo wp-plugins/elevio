@@ -1,9 +1,9 @@
 === Elevio ===
 Contributors: Elevio
 Tags: zendesk, desk.com, uservoice, zopim, olark, snapengage, livechat, knowledge base, live chat, support, intercom, statuspage, freshdesk, intercom
-Stable tag: 3.2.0
+Stable tag: 3.3.0
 Requires at least: 2.8
-Tested up to: 4.2.0
+Tested up to: 4.3.0
 
 Elevio for Wordpress plugin that integrates with your existing knowledge base, chat client, support system and more
 

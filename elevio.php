@@ -5,7 +5,7 @@ Plugin URI: https://elev.io/
 Description: A better way for your users to access the help they need.
 Author: Elevio
 Author URI: https://elev.io
-Version: 3.2.0
+Version: 3.3.0
 */
 
 if (is_admin())
